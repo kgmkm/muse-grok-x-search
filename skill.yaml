@@ -1,0 +1,5 @@
+name: "grok_x_search"
+title: "X Search via Grok Build"
+description: "Search public X (Twitter) posts, reactions and threads through the locally installed Grok Build CLI's x_search, for questions about what people are saying on X."
+category: "Work and knowledge"
+include_in_prompt: false
