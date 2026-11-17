@@ -51,14 +51,8 @@ Excerpt from an actual run (2026-11-03, shortened; counts are as of retrieval):
 > **2026-10-31 19:49 · @kagami_kami_m (the author)**
 > Announced the X article for the muse-irodori-voice skill, built to let a Muse avatar speak in an anime-style voice. 664 likes, 70 reposts, about 49k views.
 > https://x.com/kagami_kami_m/status/2116482585807486996
->
-> **2026-11-01 08:00 · @ARrow25989974**
-> An introduction memo: installed the skill and used it; the model is about 4GB, generation takes 20-40 seconds per line, and the voice is picked by a seed "gacha".
-> https://x.com/ARrow25989974/status/2116666535406170229
->
-> **2026-11-02 04:43 · @FirstStrokeweek**
-> Voiced a novel they wrote with Muse using the Irodori-linked skill: "properly listenable; the occasional stumble is part of the fun". 235 likes, about 27k views.
-> https://x.com/FirstStrokeweek/status/2116979570683580720
+
+The same run also collected a dozen third-party reactions — people who tried the skill, quoted the announcement, or wrote introduction memos — each with its date, account, a short summary and the post URL, in the same format. (Third-party posts are not reproduced here.)
 
 ## Notes
 
