@@ -42,11 +42,36 @@ Once installed, just ask Muse in plain words:
 - Checking first reactions to news and announcements
 - Tracking what specific accounts are posting
 
+## Example
+
+Prompt: *"Check the reactions on X to 'muse-irodori-voice' from 2026-10-31 to 2026-11-03. X search only, read-only."*
+
+Excerpt from an actual run (2026-11-03, shortened; counts are as of retrieval):
+
+> **2026-10-31 19:49 · @kagami_kami_m (the author)**
+> Announced the X article for the muse-irodori-voice skill, built to let a Muse avatar speak in an anime-style voice. 664 likes, 70 reposts, about 49k views.
+> https://x.com/kagami_kami_m/status/2116482585807486996
+>
+> **2026-11-01 08:00 · @ARrow25989974**
+> An introduction memo: installed the skill and used it; the model is about 4GB, generation takes 20-40 seconds per line, and the voice is picked by a seed "gacha".
+> https://x.com/ARrow25989974/status/2116666535406170229
+>
+> **2026-11-02 04:43 · @FirstStrokeweek**
+> Voiced a novel they wrote with Muse using the Irodori-linked skill: "properly listenable; the occasional stumble is part of the fun". 235 likes, about 27k views.
+> https://x.com/FirstStrokeweek/status/2116979570683580720
+
 ## Notes
 
 - Searches consume your Grok Build subscription allowance. Scoped searches at a low frequency are recommended
 - Grok Build is in beta, so its specifications and eligible plans may change (this document is based on testing as of 2026-11-01)
 - Search results are summaries produced by Grok. For important decisions, always check the original posts via their URLs
+
+## Troubleshooting
+
+- **`You are not authenticated`, or a search fails with `Not signed in`** — Your Grok Build session has expired. This happens from time to time and does not mean your setup is broken: ask Muse to start the device-code sign-in again, approve it with your own X account, and retry the search.
+- **`grok: command not found`** — The CLI is not installed yet, or `~/.grok/bin` is not on your PATH. Install it with the official installer, or ask Muse to check for you.
+- **A search returns nothing** — Grok answers "not found" instead of inventing posts. Broaden the keywords, widen the date range, or double-check the spelling of names and hashtags.
+- **A search is slow** — A scoped search took about 26 seconds in testing; broader topics take longer. Narrow the topic and add a date range.
 
 ## Rules of use
 

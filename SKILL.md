@@ -27,6 +27,14 @@
 
 - Wait for the login process to report success before searching.
 
+## Recovering from an expired session
+
+- Sign-in does not last forever. Sessions expire, and in the author's environment re-authentication has been needed repeatedly (for example on 2026-11-03, 2026-11-12 and 2026-11-17). Treat expiry as routine, not as a setup failure.
+
+- Detect it before every search with `grok models`: if it prints "You are not authenticated" instead of "You are logged in with grok.com", the session has expired. A search attempted in this state fails with "Not signed in".
+
+- Recover with the same device-code flow as the first sign-in: start `grok login --device-code` in the background only while the user is present, hand them the URL and code, wait for success, then re-check with `grok models` and re-run the search.
+
 ## Running a search
 
 - Run one scoped search per question with the headless pattern below, which finished a real search in about 26 seconds in testing on 2026-11-01.
