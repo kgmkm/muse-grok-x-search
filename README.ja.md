@@ -81,6 +81,8 @@ Muse に、このリポジトリの URL を伝えて「スキルを入れて」�
 
 「セルフホスト型のメタ検索で Muse の検索を強化できないか」も同じ環境で検証しました。結論だけ書くと、週末イベントのような日本語ローカル検索では Muse 標準検索が最も実用的で、X 検索エンジンは SearXNG / RustXNG のどちらにも存在しませんでした。詳しくは [docs/findings.md](docs/findings.md) を参照してください。
 
+同じ作者の関連作：[dsh-rustxng](https://github.com/kgmkm/dsh-rustxng)（DeepSeek Harness の内蔵 web_search を、自前で立てた RustXNG インスタンスに向け替える DSH プラグイン）
+
 ## ライセンス
 
 MIT License（[LICENSE](LICENSE)）

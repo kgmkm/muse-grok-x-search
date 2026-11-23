@@ -81,6 +81,8 @@ Before publishing this skill, we reviewed X / xAI's terms and the history of sim
 
 We also tested whether a self-hosted metasearch engine could strengthen Muse's search in the same environment. In short: for Japanese local searches such as weekend events, Muse's built-in search was the most practical, and neither SearXNG nor RustXNG has an X search engine. See [docs/findings.md](docs/findings.md) for details.
 
+Related work by the same author: [dsh-rustxng](https://github.com/kgmkm/dsh-rustxng), a DeepSeek Harness plugin that answers the built-in web_search with a self-hosted RustXNG instance.
+
 ## License
 
 MIT License ([LICENSE](LICENSE))
